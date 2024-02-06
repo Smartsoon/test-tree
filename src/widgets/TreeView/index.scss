@@ -1,0 +1,11 @@
+.tree-view-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tree-view {
+  &__filter {
+    margin-top: 16px;
+  }
+}

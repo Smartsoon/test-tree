@@ -1,0 +1,29 @@
+.tree-item {
+  display: flex;
+  flex-direction: column;
+}
+.tree-item--invisible {
+  visibility: hidden;
+}
+.tree-item__content {
+  position: relative;
+  display: flex;
+  align-content: baseline;
+  align-items: baseline;
+}
+.tree-item__content__icon {
+  position: absolute;
+  top: 31px;
+  left: -30px;
+}
+.tree-item__content .anticon-delete {
+  margin-left: 3px;
+}
+.tree-item__content .ant-typography {
+  margin-left: 8px;
+}
+.tree-item__content .anticon {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
